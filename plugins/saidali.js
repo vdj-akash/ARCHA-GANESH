@@ -4,7 +4,7 @@ copy അടിക്കുമ്പോൾ പേര് മാറ്റരുത�
 
 Contact us :
 
-https://chat.whatsapp.com/DzcfAcaAZoA5f1X4JT4eEo
+https://chat.whatsapp.com/IbxALnFjOlDE0X0lSf1mKe
 */
 
 const Asena = require('../events');
@@ -21,7 +21,7 @@ const ll ="*Need some Word*"
 
 const Ln = "*▷🤖nigalk avashiyam ulla troll cherkkan◁* "
 
- const code = "*╔════◉ CAMANDS ◉════╗*\n\n            *❖═List═❖*\n \n*🔮.quby1    ❴text❵*\n*🔮.quby2    ❴text❵*\n*🔮.quby3    ❴text❵*\n*🔮.quby4    ❴text❵*\n*🔮.cat1    ❴text❵*\n*🔮.cat2    ❴text❵*\n*🔮.cat3    ❴text❵*\n*🔮.cat4    ❴text❵*\n*🔮.doggy1    ❴text❵*\n*🔮.doggy2    ❴text❵*\n*🔮.doggy3    ❴text❵*\n*🔮.doggy4    ❴text❵*\n*🔮.trollikka1    ❴text❵*\n*🔮.trollikka2    ❴text❵*\n*🔮.trollikka3    ❴text❵*\n*🔮.trollikka4    ❴text❵*\n\n*╚═══❖══▣══▣══❖═══╝*\n\n*▷Re мoded вy: SAIDALI*\n*▷Specιal тнanĸѕ тo ιnѕane вoy*"
+ const code = "*╔════◉ CAMANDS ◉════╗*\n\n            *❖═List═❖*\n \n*🔮.quby1    ❴text❵*\n*🔮.quby2    ❴text❵*\n*🔮.quby3    ❴text❵*\n*🔮.quby4    ❴text❵*\n*🔮.cat1    ❴text❵*\n*🔮.cat2    ❴text❵*\n*🔮.cat3    ❴text❵*\n*🔮.cat4    ❴text❵*\n*🔮.doggy1    ❴text❵*\n*🔮.doggy2    ❴text❵*\n*🔮.doggy3    ❴text❵*\n*🔮.doggy4    ❴text❵*\n*🔮.trollikka1    ❴text❵*\n*🔮.trollikka2    ❴text❵*\n*🔮.trollikka3    ❴text❵*\n*🔮.trollikka4    ❴text❵*\n\n*╚═══❖══▣══▣══❖═══╝*\n\n*▷Re мoded вy: vdj-akash*\n*▷Specιal тнanĸѕ тo pro shot media*"
 
 if (Config.WORKTYPE == 'public') {
 
@@ -65,7 +65,7 @@ Asena.addCommand({ pattern: 'hii ?(.*)', fromMe: false, dontAddCommandList: true
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=hii&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/f5277ae7383f852196e8c.jpg/revision/latest/top-crop/width/1152/height/720?cb=20190205115000`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '   *Me *INSANE BOY*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '   *Me *vdj-akash*' })
 
     }));
 
